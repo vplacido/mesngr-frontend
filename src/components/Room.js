@@ -1,4 +1,5 @@
 import react from 'react'
+import MessageContainer from './MessageContainer'
 
 class Room extends react.Component {
     constructor() {
@@ -26,6 +27,7 @@ class Room extends react.Component {
     render() {
         return (
             <div>
+                <MessageContainer messages={this.state.message} />
 
             </div>
         );
