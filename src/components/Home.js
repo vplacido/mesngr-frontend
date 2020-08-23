@@ -12,13 +12,13 @@ class Home extends react.Component {
     getSender() {
         fetch("https://localhost3000.com/sender")
         .then(resp => resp.json())
-        .then(json => this.state.sender = json[0])
+        .then(json => this.setState({sender: json[0]}))
     }
 
     getReciever() {
         fetch("https://localhost3000.com/reciever")
         .then(resp => resp.json())
-        .then(json => this.state.reciever = json[0])
+        .then(json => this.setState({reciever: json[0]}))
     }
 
     render() {
