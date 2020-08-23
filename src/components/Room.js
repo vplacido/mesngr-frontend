@@ -4,12 +4,15 @@ import MessageContainer from './MessageContainer'
 class Room extends react.Component {
     constructor() {
         this.state = {
-            message: {}
+            message: []
         }
     }
 
     getMessageData() {
         //use a fectch get request to pull the data from the rails api to obatain the messages from the user
+        fetch("https://localhost300.com/messages")
+        .then(resp => resp.json())
+        .then(json => this.setState({message: this.state.message.push(json[0])}))
     }
 
     getRecieverData() {
