@@ -6,6 +6,7 @@ class MessageContainer extends react.Component {
         messages.map(m => <Message message={m} />)
     }
 
+    //will output an individual message and but will use Map Messages to map through all the messages
     render() {
         return (
             <div>

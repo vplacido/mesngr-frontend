@@ -1,7 +1,7 @@
 import react from 'react'
 
 class Message extends react.Component {
-
+    //will have to putput the infromation for each message
     render() {
         return (
             <div>

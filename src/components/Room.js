@@ -26,12 +26,11 @@ class Room extends react.Component {
     sendNewMessage() {
         //use the fetch post method to create a new message sent from the sender
     }
-
+    //this function will return the entire message of the message container and which will contain an individula message
     render() {
         return (
             <div>
                 <MessageContainer messages={this.state.message} />
-
             </div>
         );
     }
