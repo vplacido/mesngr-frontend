@@ -4,7 +4,13 @@ class NavBar extends React.Component {
     render() {
         return (
             <div>
-                NavBar
+                <button>Home</button>
+                <ol>
+                    <li>
+                        <button>Room</button>
+                        <button>Sign Out</button>
+                    </li>
+                </ol>
             </div>
         )
     }
