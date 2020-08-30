@@ -7,7 +7,7 @@ class Room extends react.Component {
             message: []
         }
     }
-
+    //fetch call to all the messages and store them in the state
     getMessageData() {
         //use a fectch get request to pull the data from the rails api to obatain the messages from the user
         fetch("https://localhost300.com/messages")

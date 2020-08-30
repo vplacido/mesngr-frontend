@@ -8,13 +8,13 @@ class Home extends react.Component {
             reciever: []
         }
     }
-
+    //fetch call to get the sender infromation from the api
     getSender() {
         fetch("https://localhost3000.com/sender")
         .then(resp => resp.json())
         .then(json => this.setState({sender: json[0]}))
     }
-
+    //fetch call to get the infromation from the sender
     getReciever() {
         fetch("https://localhost3000.com/reciever")
         .then(resp => resp.json())
