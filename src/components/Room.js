@@ -29,7 +29,7 @@ class Room extends react.Component {
     //this function will return the entire message of the message container and which will contain an individula message
     render() {
         return (
-            <div>
+            <div className="roomDiv">
                 <MessageContainer messages={this.state.message} />
             </div>
         );
