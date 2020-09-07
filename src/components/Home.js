@@ -23,8 +23,8 @@ class Home extends react.Component {
 
     render() {
         return (
-            <div>
-                <p>HomePage</p>
+            <div className="Home">
+                <p className="Title">HomePage</p>
                 <button onClick={this.getSender}>Click Me For Sender!</button>
                 <button onClick={this.getReciever}>Click Me For Reciever!</button>
                 <Room sender={this.state.sender} reciever={this.state.reciever} />
