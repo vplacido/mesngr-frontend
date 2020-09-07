@@ -12,6 +12,7 @@ class Login extends react.Component {
             <div>
                 <form>
                     <input>Email</input>
+                    <input>Password</input>
                     <input type="submit"></input>
                 </form>
             </div>
