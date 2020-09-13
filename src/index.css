@@ -30,3 +30,12 @@ div {
   text-shadow: hotpink;
 }
 
+.home {
+  background-color: khaki;
+}
+
+.home > .title {
+  font-size: large;
+  background-color: lawngreen;
+}
+
