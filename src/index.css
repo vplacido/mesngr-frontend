@@ -39,3 +39,14 @@ div {
   background-color: lawngreen;
 }
 
+.navBar .navHomeBut {
+  background-color: lawngreen;
+}
+
+.navBarListRoomBut {
+  background-color: red;
+}
+
+.navBarListSignOutBut {
+  background-color: green;
+}
