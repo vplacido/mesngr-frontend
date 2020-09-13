@@ -50,3 +50,9 @@ div {
 .navBarListSignOutBut {
   background-color: green;
 }
+
+.messageContainerDiv {
+  background-color: orange;
+  border-radius: 0%;
+  box-sizing: content-box;
+}
