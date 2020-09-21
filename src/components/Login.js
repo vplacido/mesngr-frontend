@@ -1,7 +1,7 @@
 import react from 'react'
 
 class Login extends react.Component {
-
+    //will fetch the backend in an effort to check if the login information is correct
     checkLogin() {
         fetch("https://localhost300.com/messages")
         .then(resp => resp.json())

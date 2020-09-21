@@ -2,6 +2,7 @@ import react from 'react'
 import Message from './Message'
 
 class MessageContainer extends react.Component {
+    //function will loop through all the messages and output them
     mapMessages(messages) {
         messages.map(m => <Message message={m} />)
     }
