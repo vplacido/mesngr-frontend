@@ -55,6 +55,8 @@ div {
   background-color: orange;
   border-radius: 0%;
   box-sizing: content-box;
+  text-align: center;
+  text-shadow: orangered;
 }
 
 .roomDiv {
