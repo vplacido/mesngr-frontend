@@ -20,7 +20,7 @@ class Home extends react.Component {
         .then(resp => resp.json())
         .then(json => this.setState({reciever: json[0]}))
     }
-
+    //will have home button and buttons to get the information 
     render() {
         return (
             <div className="Home">
