@@ -57,6 +57,8 @@ div {
   box-sizing: content-box;
   text-align: center;
   text-shadow: orangered;
+  text-transform: capitalize;
+  align-items: center;
 }
 
 .roomDiv {
