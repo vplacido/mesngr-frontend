@@ -62,4 +62,6 @@ div {
 .roomDiv {
   background-color: red;
   text-align: center;
+  text-shadow: orangered;
+  box-shadow: orangered;
 }
